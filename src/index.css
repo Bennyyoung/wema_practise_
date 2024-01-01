@@ -1,0 +1,56 @@
+@font-face {
+	font-family: 'proxima_nova';
+	src: url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot');
+	src: url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.woff') format('woff'),
+		 url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.ttf') format('truetype'),
+		 url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+:root {
+  font-family: 'proxima_nova';
+}
+
+h5, p{
+  font-weight: 500; 
+}
+
+h1{ 
+  font-weight: 700;
+}
+
+span {
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 14.52px;
+}
+
+h2 {
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 29px;
+	letter-spacing: 0em;
+	color: #039BF0;
+	margin-top: 0px;
+	margin-bottom: 0px
+}
+
+.file-upload {
+	border: 2px dashed #ccc; /* Dotted border style */
+	padding: 10px;
+	/* height: 204px; */
+	display: none;
+	outline: none; /* Remove default blue outline */
+	cursor: pointer; /* Show pointer cursor on hover */
+}
+
+/* Optional: Hover effect */
+.file-upload:hover {
+	border-color: #999; /* Change border color on hover */
+}
+
+hr {
+	border-color: gray;
+}
