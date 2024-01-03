@@ -1,4 +1,4 @@
-import { useState, useRef } from "react"
+import { useState } from "react"
 import AuthStepCard from "components/Card/AuthStepCard/AuthStepCard"
 import FormField from "components/FormField/FormField"
 import Form from "components/Form/Form"

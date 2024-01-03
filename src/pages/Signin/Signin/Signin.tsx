@@ -1,7 +1,6 @@
 import { useState } from "react"
 import AuthStepCard from "@/components/Card/AuthStepCard/AuthStepCard"
 import Form from "@/components/Form/Form"
-import axios from "axios"
 import FormField from "@/components/FormField/FormField"
 import { Link, useNavigate } from "react-router-dom"
 import Button from "@/components/Button/Button"

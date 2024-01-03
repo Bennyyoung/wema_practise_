@@ -1,5 +1,4 @@
 import FormField from "components/FormField/FormField"
-import axios from "axios"
 import Button from "components/Button/Button"
 
 interface ISignupStepTwo {
@@ -9,7 +8,7 @@ interface ISignupStepTwo {
  step: number
 }
 
-const SignupStepTwo: React.FC<ISignupStepTwo> = ({ formData, setFormData, handleNext, step }) => {
+const SignupStepTwo: React.FC<ISignupStepTwo> = ({ formData, setFormData, step }) => {
 
  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
   const { name, value } = e.target
